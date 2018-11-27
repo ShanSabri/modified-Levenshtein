@@ -1,6 +1,5 @@
 # modified-Levenshtein
-A direct and efficient translation of the dynamic programming algorithm of the Sequence-Levenshtein distance into Cython. 
-
+An efficient dynamic programming algorithm of the Sequence-Levenshtein distance using Cython. This is a direct translation of the Sequence-Levenshtein algorithm presented in Buschmann & Bystrykh (BMC Bioinformatics, 2013; see references below).  
 
 This repository contains a Cython source and its associated Setup file, both of which are written in Python 3. Once compiled, the distance function can be imported as a typical module function.
 
@@ -29,6 +28,7 @@ It's been a while since I wrote this code so if you find any mistakes or optimiz
 
 ### References
 I found the following refrences particularly helpful while hacking this up:
+ - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3853030/
  - https://github.com/gfairchild/pyxDamerauLevenshtein
  - https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance
  - http://hackmap.blogspot.com/2008/04/levenshtein-in-cython.html
