@@ -14,12 +14,8 @@ Cython version 0.28.2
 $ python3 setup.py build_ext --inplace
 ```
 
-Generating pre-built zip archives for distribution:
+Importing within Python:
 ```python
-$ python3 
-Python 3.6.4 |Anaconda, Inc.| (default, Dec 21 2017, 15:39:08) 
-[GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)] on darwin
-
 >>> from cLev import dist
 >>> dist("CAGG", "CGTC")
 2
